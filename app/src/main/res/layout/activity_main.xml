@@ -51,7 +51,9 @@
         android:padding="13dp"
         android:backgroundTint="@color/white"
         />
+
     <TextView
+        android:id="@+id/tvSelectedDate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -67,7 +69,9 @@
         android:textColor="#6d6875"
         android:textSize="20sp"
         android:textStyle="bold" />
+
     <TextView
+        android:id="@+id/tvAgeInMinutes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
